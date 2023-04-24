@@ -1,0 +1,2 @@
+#!/bin/bash
+chmod uoga-x --recursive $(find -type d)
