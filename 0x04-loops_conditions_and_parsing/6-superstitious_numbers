@@ -14,7 +14,7 @@ do
 		echo "bad luck from Japan"
 	elif [ "$a" -eq "17" ]
 	then
-		echo "bbad luck from Italy"
+		echo "bad luck from Italy"
 	fi
 	((a++))
 done
