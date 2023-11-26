@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+hour=0
+NHOUR=12
+min=0
+NMIN=59
+
+while [ "$hour" -le "$NHOUR" ] && [ "$min" -le "$NMIN" ]
+do
+	if [ "$min" -eq "0" ]
+	then
+		echo "Hour: $hour"
+		((min++))
+	else
+		echo "$min"
+		if [ "$min" -eq "59" ]
+		then
+			((min = 0))
+			((hour++))
+		else
+			((min++))
+		fi
+	fi
+done
