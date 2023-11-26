@@ -11,10 +11,10 @@ do
 		echo "bad luck from China"
 	elif [ "$a" -eq "9" ]
 	then
-		echo "bad luck from Japani"
+		echo "bad luck from Japan"
 	elif [ "$a" -eq "17" ]
 	then
-		echo "bad luck from Japan"
+		echo "bbad luck from Italy"
 	fi
 	((a++))
 done
