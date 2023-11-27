@@ -3,5 +3,5 @@
 
 for a in *
 do
-	echo "${a//[^-]-/}"
+	echo "${a//[^-]*\-/}"
 done
