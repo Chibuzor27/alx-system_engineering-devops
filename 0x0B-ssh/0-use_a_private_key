@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Connect
+
+ssh -i ~/.ssh/school -o "PasswordAuthentication no" ubuntu@54.87.213.231
